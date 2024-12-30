@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./Images/iconForTitle.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./Css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./Css/style.css" />
+    <link rel="stylesheet" href="./Css/all.min.css" />
+    <title>Piso_Shop</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar bg-body-tertiary">
+        <div class="container">
+          <div class="logo d-flex align-items-center">
+            <img src="./Images/logo.avif" alt="" />
+            <a class="navbar-brand fs-2 fw-bolder ms-2" href="index.html"
+              >Piso_Shop</a
+            >
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5
+                class="offcanvas-title fs-2 fw-bolder"
+                id="offcanvasNavbarLabel"
+              >
+                Piso_Shop
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <form action="">
+                <div
+                  class="userBtnInfo d-flex justify-content-between w-50 m-auto mt-3"
+                >
+                  <button class="btn btn-danger" type="submit">
+                    <a
+                      class="text-decoration-none text-white"
+                      href="register.html"
+                      >Sign_Up</a
+                    >
+                  </button>
+                  <button class="btn btn-success" type="submit">
+                    <a class="text-decoration-none text-white" href="login.html"
+                      >Sign_In</a
+                    >
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="content">
+      <h2 class="text-black bg-danger p-3 text-center">Introduction Page</h2>
+    </section>
+    <footer class="bg-dark-subtle text-center fs-3 p-4 fw-bolder text-black">
+      <p class="">copyright &copy; National Telecommunication Institute.<p class="">
+          All rights reserved.
+      </p> </p>
+  </footer>
+    <script src="./Js/bootstrap.min.js"></script>
+    <script src="./Js/script.js"></script>
+    <script src="./Js/all.min.js"></script>
+  </body>
+</html>

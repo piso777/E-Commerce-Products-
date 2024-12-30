@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./Images/iconForTitle.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./Css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./Css/style.css" />
+    <link rel="stylesheet" href="./Css/all.min.css" />
+    <title>Piso_Shop</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar bg-body-tertiary">
+        <div class="container">
+          <div class="logo d-flex align-items-center">
+            <img src="./Images/logo.avif" alt="" />
+            <a class="navbar-brand fs-2 fw-bolder ms-2" href="home.html"
+              >Piso_Shop</a
+            >
+          </div>
+          <div class="userDetails d-flex  w-50 ">
+            <h2></h2>
+            <button class=" position-relative bg-transparent border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <img class="shoppingCart mx-3" src="Images/cartlogo.png" alt="cartLogo">
+              <span class=" position-absolute bg-primary text-white w-25 rounded-circle cartNum">0</span>
+            </button>
+              <a class=" align-content-center mx-3 fs-5 fw-bolder text-decoration-none" href="index.html">Log_Out</a>
+          </div>
+        </div>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title fs-3 fw-bolder" id="offcanvasNavbarLabel">Shopping Cart</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body text-center">
+              <div class="showingProducts"></div>
+              <button class="btn btn-dark fs fw-bolder mt-3 p-3">Go To Cart Page</button>
+          </div>
+        </div>
+        </div> 
+      </nav>
+      <div class="filterSection container d-flex justify-content-between my-3">
+        <select class=" fs-5 fw-bolder py-2 px-3 text-center border-3 border-black rounded-3 " title="filteringProducts" name="filteringProducts" id="filterProducts">
+          <option value="1">Search By Name</option>
+          <option value="2">Search By Category</option>
+        </select>
+        <input placeholder="Search For Product" title="searchBar" class=" fs-5 fw-bolder py-2 px-3 text-center border-3 border-black rounded-3" type="search" name="" id="">
+      </div>
+    </header>
+    <hr>
+    <section class="content container">
+      <div class="products d-flex justify-content-between flex-wrap">
+      </div>
+    </section>
+    <footer class="bg-dark-subtle text-center fs-3 p-4 fw-bolder text-black">
+      <p class="">copyright &copy; National Telecommunication Institute.<p class="">
+          All rights reserved.
+      </p> </p>
+  </footer>
+    <script src="./Js/bootstrap.min.js"></script>
+    <script src="./Js/script.js"></script>
+    <script src="./Js/all.min.js"></script>
+  </body>
+</html>

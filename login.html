@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./Images/iconForTitle.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./Css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./Css/style.css" />
+    <link rel="stylesheet" href="./Css/all.min.css" />
+    <title>Piso_Shop</title>
+  </head>
+  <body class="bg-black">
+    <header>
+        <nav class="navbar bg-dark-subtle py-3">
+          <div class="container">
+            <div class="logo d-flex align-items-center">
+              <img src="./Images/logo.avif" alt="" />
+              <a class="navbar-brand fs-2 fw-bolder ms-2" href="index.html"
+                >Piso_Shop</a
+              >
+            </div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </nav>
+      </header>
+    <section class="content">
+        <h1 class="text-center mt-5 text-white fs-1 fw-bolder">Login</h1>
+        <form action="">
+          <label
+            class="text-light fw-bolder fs-2 w-75 m-auto d-block my-3"
+            for="userEmail"
+            >userEmail :</label
+          >
+          <input
+            id="userEmail"
+            class="userEmail form-control w-75 m-auto"
+            type="email"
+            placeholder="User Email"
+            name="userEmail"
+          />
+          <label
+            class="text-light fw-bolder fs-2 w-75 m-auto d-block my-3"
+            for="userPassword"
+            >userPassword :</label
+          >
+          <input
+            id="userPassword"
+            class="userPassword form-control w-75 m-auto"
+            type="password"
+            placeholder="User Password"
+            name="userPassword"
+          />
+          <button id="loginBtn" class="btn btn-dark m-auto d-block fs-3 my-5" type="submit">
+            <a class="text-decoration-none text-white" href="register.html"
+              >Sign_In</a
+            >
+          </button>
+          <p class=" text-center text-light fs-4 fw-bolder ">If you don't have an account , please <a href="register.html">Register</a></p>
+        </form>
+      </section>
+    <footer class="bg-dark-subtle text-center fs-3 p-4 fw-bolder text-black">
+        <p class="">copyright &copy; National Telecommunication Institute.<p class="">
+            All rights reserved.
+        </p></p>
+    </footer>
+    <script src="./Js/bootstrap.min.js"></script>
+    <script src="./Js/script.js"></script>
+    <script src="./Js/all.min.js"></script>
+    <script src="./Js/login.js"></script>
+  </body>
+</html>
