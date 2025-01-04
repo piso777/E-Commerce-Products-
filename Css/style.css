@@ -16,7 +16,6 @@ img.shoppingCart{
     cursor: pointer;
 }
 header .filterSection select , header .filterSection input{
-    width: 45%;
     outline: none;
 }
 .cartProduct span{
@@ -52,4 +51,36 @@ header .filterSection select , header .filterSection input{
 
 .cartNum{
     right: 5px;
+}
+
+.plus , .minus{
+    cursor: pointer;
+}
+
+.cartProduct{
+    width: 30%;
+    line-height: 8px; 
+}
+
+.cartIcon , .favIcon{
+    cursor: pointer;
+}
+
+.cards .card{
+    width: 90%;
+    margin: 50px 20px;
+}
+
+@media screen and (max-width: 1200px){
+    .content .products .product{
+        width: 97%;
+        margin: 0 auto;
+    }
+    .cartProduct{
+        width: 100%;
+    }
+    .cards .card{
+        width: 100%;
+    }
+    
 }

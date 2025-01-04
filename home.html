@@ -23,7 +23,7 @@
               >Piso_Shop</a
             >
           </div>
-          <div class="userDetails d-flex  w-50 ">
+          <div class="userDetails d-flex w-50 ">
             <h2></h2>
             <button class=" position-relative bg-transparent border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
               <img class="shoppingCart mx-3" src="Images/cartlogo.png" alt="cartLogo">
@@ -39,26 +39,23 @@
           </div>
           <div class="offcanvas-body text-center">
               <div class="showingProducts"></div>
-              <button class="btn btn-dark fs fw-bolder mt-3 p-3">Go To Cart Page</button>
+              <button class="goToCart btn btn-dark fs fw-bolder mt-3 p-3">Go To Cart Page</button>
+              <button class="goToFavorites btn btn-danger fs fw-bolder mt-3 p-3">Go To Favorite Page</button>
           </div>
         </div>
         </div> 
       </nav>
-      <div class="filterSection container d-flex justify-content-between my-3">
-        <select class=" fs-5 fw-bolder py-2 px-3 text-center border-3 border-black rounded-3 " title="filteringProducts" name="filteringProducts" id="filterProducts">
-          <option value="1">Search By Name</option>
-          <option value="2">Search By Category</option>
-        </select>
-        <input placeholder="Search For Product" title="searchBar" class=" fs-5 fw-bolder py-2 px-3 text-center border-3 border-black rounded-3" type="search" name="" id="">
+      <div class="filterSection container d-block mt-3">
+          <input placeholder="Search For Product By Name" title="searchBar" class="searchProductBar fs-5 fw-bolder w-100 p-2 rounded-3 text-center border-3 border-black" type="search" name="" id="">
       </div>
     </header>
     <hr>
     <section class="content container">
-      <div class="products d-flex justify-content-between flex-wrap">
+      <div class="products d-flex d-sm-block d-xl-flex w-100 justify-content-between flex-wrap">
       </div>
     </section>
     <footer class="bg-dark-subtle text-center fs-3 p-4 fw-bolder text-black">
-      <p class="">copyright &copy; National Telecommunication Institute.<p class="">
+      <p class="">copyright &copy; Software Engineering Future Academy.<p class="">
           All rights reserved.
       </p> </p>
   </footer>
